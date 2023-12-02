@@ -1,1 +1,2 @@
 # Quality-Aquarium-Water-Monitoring-Using-TDS-Sensor-and-DS18B20-based-on-Blynk
+This project aims to monitor the water quality of an aquarium using TDS (Total Dissolved Solids) and DS18B20 sensors. The program will send sensor readings to the Blynk application, allowing real-time monitoring of water quality. Additionally, the program will send notifications to Telegram when the water conditions indicate pollution, specifically when the TDS value exceeds the predetermined ppm limit. This serves as a warning to prompt timely action.
