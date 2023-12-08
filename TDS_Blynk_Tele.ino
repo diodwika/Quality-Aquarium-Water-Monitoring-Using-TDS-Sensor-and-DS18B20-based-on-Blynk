@@ -1,11 +1,11 @@
 // See the Device Info tab, or Template settings
-#define BLYNK_TEMPLATE_ID "TMPL6ogMBe7M8"
-#define BLYNK_TEMPLATE_NAME "TDS Monitoring"
-#define BLYNK_AUTH_TOKEN "8XuHW6-X1XByeqlnf27GKYs-P-Dff2PX"
+#define BLYNK_TEMPLATE_ID "your template ID"
+#define BLYNK_TEMPLATE_NAME "your template name"
+#define BLYNK_AUTH_TOKEN "your device token"
 
 // Define your Telegram bot token and chat ID
-#define TELEGRAM_BOT_TOKEN "6815609273:AAG0ie5RLqsGQku48SMxwhxvDEE5sRXsLJE"
-#define TELEGRAM_CHAT_ID "1916454355"
+#define TELEGRAM_BOT_TOKEN "your bot token"
+#define TELEGRAM_CHAT_ID "your telegram ID"
 
 // Uncomment this line if you're using a DS18B20 temperature sensor
 #define DS18B20_SENSOR_PIN 18  // Ganti dengan pin GPIO yang Anda gunakan
@@ -22,8 +22,8 @@ char auth[] = BLYNK_AUTH_TOKEN;
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "KAY/O";
-char pass[] = "seblakayam";
+char ssid[] = "your wifi ssid";
+char pass[] = "your wifi password";
 
 BlynkTimer timer;
 
