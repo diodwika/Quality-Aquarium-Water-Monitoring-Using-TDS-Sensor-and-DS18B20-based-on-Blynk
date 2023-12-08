@@ -1,7 +1,7 @@
 // See the Device Info tab, or Template settings
-#define BLYNK_TEMPLATE_ID "TMPL6ogMBe7M8"
-#define BLYNK_TEMPLATE_NAME "TDS Monitoring"
-#define BLYNK_AUTH_TOKEN "8XuHW6-X1XByeqlnf27GKYs-P-Dff2PX"
+#define BLYNK_TEMPLATE_ID "your template ID"
+#define BLYNK_TEMPLATE_NAME "your blynk username"
+#define BLYNK_AUTH_TOKEN "your device token"
 
 // Uncomment this line if you're using a DS18B20 temperature sensor
 #define DS18B20_SENSOR_PIN 18  // Ganti dengan pin GPIO yang Anda gunakan
@@ -16,8 +16,8 @@ char auth[] = BLYNK_AUTH_TOKEN;
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "HOTEL KING AULA";
-char pass[] = "2+2+2+2+2+2+2+2";
+char ssid[] = "your wifi ssid";
+char pass[] = "your wifi passwaord";
 
 BlynkTimer timer;
 
