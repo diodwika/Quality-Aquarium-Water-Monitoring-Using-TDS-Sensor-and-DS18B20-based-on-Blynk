@@ -1,6 +1,6 @@
 // See the Device Info tab, or Template settings
 #define BLYNK_TEMPLATE_ID "your template ID"
-#define BLYNK_TEMPLATE_NAME "your blynk username"
+#define BLYNK_TEMPLATE_NAME "your template name"
 #define BLYNK_AUTH_TOKEN "your device token"
 
 // Uncomment this line if you're using a DS18B20 temperature sensor
